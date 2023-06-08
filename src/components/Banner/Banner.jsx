@@ -8,12 +8,12 @@ function Banner() {
     <Container className="justify-content-center d-flex align-items-center text-center mt-4">
       <Row className="Cont_01 mt-5 p-1 ">
         <Col sm={7}>
-          <h1 className="title_Front">Front-End React Developer 👋🏻</h1>
-          <p className="descrizione">
+          <h1 className="title_Front mb-3">Front-End React Developer 👋🏻</h1>
+          <p className="descrizione mb-4">
             Ciao, sono Joao Batista. Sono un appassionato sviluppatore React
             Front-end con sede a Rieti, in Italia. 📍
           </p>
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center mb-3">
             <a
               href="https://www.linkedin.com/in/joao-batista-sviluppatorefrontend/?locale=it_IT"
               className="svg_1"
