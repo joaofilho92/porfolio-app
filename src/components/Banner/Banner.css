@@ -5,13 +5,21 @@
 .Cont_01{
     width: 80%;
     height: 400px;
-    
+}
+
+.teste{
+    width: 500px;
+}
+.teste2{
+    width: 400px;
+    margin-left: 50px;
 }
 
 .title_Front{
     font-family: 'Poppins', sans-serif;
     font-size: 55px;
     text-align: start;
+    margin-top: 50px;
 }
 
 .descrizione{
@@ -39,6 +47,5 @@
 .Profile_img{
     width: 300px;
     height: 300px;
-    margin-left: 45px;
 }
 
