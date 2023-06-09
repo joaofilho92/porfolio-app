@@ -5,7 +5,7 @@ import './Banner.css'
 
 function Banner() {
   return (
-    <Container className="justify-content-center d-flex align-items-center text-center mt-4">
+    <Container className="justify-content-center d-flex align-items-center text-center mt-4 block_total">
       <Row className="Cont_01 mt-5 p-1 ">
         <Col sm={7}>
           <h1 className="title_Front mb-3">Front-End React Developer 👋🏻</h1>
@@ -42,9 +42,44 @@ function Banner() {
               </svg>
             </a>
           </div>
+          <div className="Tech_stack">
+            <h3 className="mt-5 mb-4">Tech Stack |</h3>
+            <div className="images01">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+                alt="React_Logo"
+                className="Logo_img"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+                alt="React_Logo"
+                className="Logo_img"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+                alt="React_Logo"
+                className="Logo_img"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+                alt="React_Logo"
+                className="Logo_img"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt="React_Logo"
+                className="Logo_img"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+                alt="React_Logo"
+                className="Logo_img"
+              />
+            </div>
+          </div>
         </Col>
-        <Col sm={5}>
-          <img src="./cut.png" alt="Profile_picture" />
+        <Col sm={5} >
+          <img src="./Napoli.jpeg" alt="Profile_picture" className="Profile_img"/>
         </Col>
       </Row>
     </Container>

@@ -21,5 +21,24 @@
 }
 
 .svg_1{
- color: #212529;
+    color: #212529;
 }
+
+.Tech_stack{
+    text-align: start;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.Logo_img{
+    width: 50px;
+    margin-left: 22px;
+}
+
+.Profile_img{
+    width: 300px;
+    height: 300px;
+    margin-left: 45px;
+}
+
