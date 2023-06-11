@@ -1,17 +1,11 @@
 import './App.css';
-import AboutMe from './components/AboutMe/AboutMe';
-import Banner from './components/Banner/Banner';
-import MyNavBar from './components/NavBar/MyNavBar.jsx';
-import Stack from './components/Stack/Stack';
+import Header from './components/header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <MyNavBar />
-      <Banner />
-      <Stack />
-      <AboutMe/>
-    </div>
+   <>
+   <Header/>
+   </>
   );
 }
 
