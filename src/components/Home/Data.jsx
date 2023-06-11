@@ -4,7 +4,7 @@ const Data = () => {
   return (
     <div className="homa__data">
       <h1 className="home__title">
-        Joao.dev
+        Joao B.
         <svg
           width="36"
           height="36"
@@ -55,7 +55,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Front-End Developer</h3>
+      <h3 className="home__subtitle">Jr.Front-End Developer</h3>
       <p className="home__description">
         Hi, I'm Joao Batista. A passionate Front-end React Developer based in
         Rieti, Italia. 📍
