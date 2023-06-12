@@ -1,0 +1,167 @@
+.section__title {
+  text-align: center;
+}
+
+
+.portfolio__title {
+    color: black ;
+}
+
+.section__subtitle {
+  text-align: center;
+  font-size: var(--h3-font-size);
+}
+
+.portfolio__content {
+  grid-template-columns: 2fr 1.5fr;
+  column-gap: 1rem;
+  align-items: center;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+  height: 350px;
+  border-radius: 1%;
+}
+
+.portfolio__img {
+  align-self: center;
+  justify-self: center;
+  width: 75%;
+}
+
+.imagine__app {
+  height: 255px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 1%;
+}
+
+.portfolio__description1 {
+    font-size: 15px;
+    width: 85%;
+    text-align: center;
+}
+
+.portfolio__title3 {
+    font-size: 15px;
+    width: 85%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.portfolio__title4 {
+    font-size: 20px;
+    width: 85%;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.portfolio__title {
+  display: flex;
+  font-weight: var(--font-medium);
+  font-size: 20px;
+  align-items: start;
+  margin-bottom: 5px;
+}
+
+.portfolio__social-icon {
+    color: var(--title-color);
+}
+
+.portfolio__span {
+    margin-left: 10px;
+}
+
+.portfolio__description {
+  word-wrap: break-word;
+}
+
+
+/* Para dispositivos médios */
+@media screen and (max-width: 768px) {
+  .portfolio__content {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    height: 600px;
+  }
+
+  .portfolio__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagine__app {
+    width: 70%;
+  }
+
+  .portfolio__description1,
+  .portfolio__title3,
+  .portfolio__title4 {
+    width: 100%;
+  }
+
+  .portfolio__description {
+    text-align: center;
+  }
+    .portfolio__content {
+    margin-bottom: 6rem; /* Adicione esta linha para aplicar a margem inferior */
+  }
+}
+
+/* Para dispositivos pequenos */
+@media screen and (max-width: 576px) {
+  .section__title {
+    font-size: 1.5rem;
+  }
+
+  .section__subtitle {
+    font-size: 1rem;
+  }
+
+  .portfolio__description1 {
+    font-size: 14px;
+  }
+
+  .portfolio__title3 {
+    font-size: 14px;
+  }
+
+  .portfolio__title4 {
+    font-size: 18px;
+  }
+
+  .portfolio__description1,
+  .portfolio__title3,
+  .portfolio__title4 {
+    padding-right: 1rem;
+  }
+
+  .imagine__app {
+    width: 90%;
+  }
+}
+
+/* Para dispositivos muito pequenos */
+@media screen and (max-width: 350px) {
+  .section__title {
+    font-size: 1.25rem;
+  }
+
+  .section__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .portfolio__description1 {
+    font-size: 13px;
+  }
+
+  .portfolio__title3 {
+    font-size: 13px;
+  }
+
+  .portfolio__title4 {
+    font-size: 16px;
+  }
+}
