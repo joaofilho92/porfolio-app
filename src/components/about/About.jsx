@@ -1,7 +1,6 @@
 import React from 'react';
 import "./About.css";
 import CV from "../../assets/Joao_Batista_Lopes_Filho_CV.pdf";
-import Info from './Info';
 import Test from "../../assets/Teste_Psico_Attitudinale.pdf";
 
 
@@ -13,7 +12,7 @@ const About = () => {
 
       <div className="about__container container grid">
         <div className="about__data">
-          <Info />
+          
 
           <p className="about__description">
             Come Junior Front-End Developer, possiedo un impressionante set di

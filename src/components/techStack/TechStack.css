@@ -1,0 +1,62 @@
+.stack__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.stack__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.Logo_img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+/* Para dispositivos médios */
+@media screen and (max-width: 768px) {
+  .stack__title {
+    font-size: 1.5rem;
+  }
+
+  .Logo_img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
+}
+
+/* Para dispositivos pequenos */
+@media screen and (max-width: 576px) {
+  .stack__title {
+    font-size: 1.2rem;
+  }
+
+  .Logo_img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+}
+
+/* Para dispositivos muito pequenos */
+@media screen and (max-width: 350px) {
+  .stack__title {
+    font-size: 1rem;
+  }
+
+  .Logo_img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+}
