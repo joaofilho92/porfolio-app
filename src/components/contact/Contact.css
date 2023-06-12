@@ -1,0 +1,45 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.contact__info {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+/* Para dispositivos médios */
+@media screen and (max-width: 768px) {
+  .contact__info {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Para dispositivos pequenos */
+@media screen and (max-width: 576px) {
+  .contact__info {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Para dispositivos muito pequenos */
+@media screen and (max-width: 350px) {
+  .contact__info {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
