@@ -56,7 +56,7 @@ const About = () => {
             </a>
 
             <a download="" href={Test} className="button button--flex">
-              Teste Psico-Attitudinale
+              Test Psico-Attitudinale
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
